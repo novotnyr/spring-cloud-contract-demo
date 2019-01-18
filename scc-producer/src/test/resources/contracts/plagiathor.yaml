@@ -1,0 +1,13 @@
+request:
+  method: POST
+  url: /check
+  body:
+    text: bacardi, martel, hennessy, tri slávne dynastie
+  headers:
+    Content-Type: application/json;charset=UTF-8
+response:
+  status: 200
+  body:
+    match: 100
+  headers:
+    Content-Type: application/json;charset=UTF-8
